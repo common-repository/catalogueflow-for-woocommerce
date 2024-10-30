@@ -1,0 +1,44 @@
+/* Estilos para el plugin de administración */
+
+/* Estilo para el botón de generación de descripción en la barra lateral */
+#wc-catalogueflow-generate-description {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+/* Estilo para el indicador de carga */
+#wc-catalogueflow-loading img {
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: 10px auto;
+}
+
+/* Estilo para el botón de generación de descripción en la barra de herramientas del WYSIWYG */
+#insert-catalogueflow-description.button {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Estilos para los ítems de capabilities */
+.capability-item {
+	margin-bottom: 15px;
+}
+
+.capability-item label {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.capability-item .description {
+	margin-left: 20px;
+	font-size: 0.9em;
+	color: #666;
+}
+
+/* Estilos para los textarea */
+textarea {
+	width: 100%;
+	max-width: 500px;
+}
